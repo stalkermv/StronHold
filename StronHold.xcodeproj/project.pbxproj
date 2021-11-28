@@ -13,6 +13,16 @@
 		6CB436C02753BBAB0045A11F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CB436BF2753BBAB0045A11F /* Preview Assets.xcassets */; };
 		6CB436C22753BBAB0045A11F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB436C12753BBAB0045A11F /* Persistence.swift */; };
 		6CB436C52753BBAB0045A11F /* StronHold.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CB436C32753BBAB0045A11F /* StronHold.xcdatamodeld */; };
+		6CB436CC2753BE380045A11F /* TutorialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB436CB2753BE380045A11F /* TutorialScreen.swift */; };
+		6CB436CE2753BE480045A11F /* CreatePasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB436CD2753BE480045A11F /* CreatePasswordScreen.swift */; };
+		6CB436D02753BE540045A11F /* EnterPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB436CF2753BE540045A11F /* EnterPasswordScreen.swift */; };
+		6CB436D22753BE8B0045A11F /* StronholdTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB436D12753BE8B0045A11F /* StronholdTabView.swift */; };
+		6CB436D42753BF980045A11F /* PhotosScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB436D32753BF980045A11F /* PhotosScreen.swift */; };
+		6CB436D62753BFB90045A11F /* NotesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB436D52753BFB90045A11F /* NotesScreen.swift */; };
+		6CB436D82753BFCB0045A11F /* ContactsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB436D72753BFCB0045A11F /* ContactsScreen.swift */; };
+		6CB436DA2753BFD70045A11F /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB436D92753BFD70045A11F /* SettingsScreen.swift */; };
+		6CB436E42753C2910045A11F /* Image+Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB436E32753C2910045A11F /* Image+Icons.swift */; };
+		6CB436E62753C8FE0045A11F /* EmptyPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB436E52753C8FE0045A11F /* EmptyPlaceholderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +33,16 @@
 		6CB436BF2753BBAB0045A11F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6CB436C12753BBAB0045A11F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		6CB436C42753BBAB0045A11F /* StronHold.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StronHold.xcdatamodel; sourceTree = "<group>"; };
+		6CB436CB2753BE380045A11F /* TutorialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialScreen.swift; sourceTree = "<group>"; };
+		6CB436CD2753BE480045A11F /* CreatePasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordScreen.swift; sourceTree = "<group>"; };
+		6CB436CF2753BE540045A11F /* EnterPasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPasswordScreen.swift; sourceTree = "<group>"; };
+		6CB436D12753BE8B0045A11F /* StronholdTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StronholdTabView.swift; sourceTree = "<group>"; };
+		6CB436D32753BF980045A11F /* PhotosScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosScreen.swift; sourceTree = "<group>"; };
+		6CB436D52753BFB90045A11F /* NotesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesScreen.swift; sourceTree = "<group>"; };
+		6CB436D72753BFCB0045A11F /* ContactsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsScreen.swift; sourceTree = "<group>"; };
+		6CB436D92753BFD70045A11F /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		6CB436E32753C2910045A11F /* Image+Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Icons.swift"; sourceTree = "<group>"; };
+		6CB436E52753C8FE0045A11F /* EmptyPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyPlaceholderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				6CB436B82753BBA80045A11F /* StronHoldApp.swift */,
-				6CB436BA2753BBA80045A11F /* ContentView.swift */,
+				6CB436DB2753BFF80045A11F /* Views */,
 				6CB436BC2753BBAB0045A11F /* Assets.xcassets */,
 				6CB436C12753BBAB0045A11F /* Persistence.swift */,
 				6CB436C32753BBAB0045A11F /* StronHold.xcdatamodeld */,
@@ -71,6 +91,80 @@
 				6CB436BF2753BBAB0045A11F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6CB436DB2753BFF80045A11F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6CB436BA2753BBA80045A11F /* ContentView.swift */,
+				6CB436E22753C0920045A11F /* Components */,
+				6CB436E12753C07D0045A11F /* Helpers */,
+				6CB436DC2753C0090045A11F /* Scenes */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6CB436DC2753C0090045A11F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6CB436CB2753BE380045A11F /* TutorialScreen.swift */,
+				6CB436D12753BE8B0045A11F /* StronholdTabView.swift */,
+				6CB436CD2753BE480045A11F /* CreatePasswordScreen.swift */,
+				6CB436CF2753BE540045A11F /* EnterPasswordScreen.swift */,
+				6CB436E02753C02D0045A11F /* Settings */,
+				6CB436DF2753C0250045A11F /* Note */,
+				6CB436DE2753C01B0045A11F /* Contact */,
+				6CB436DD2753C0130045A11F /* Photo */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6CB436DD2753C0130045A11F /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				6CB436D32753BF980045A11F /* PhotosScreen.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		6CB436DE2753C01B0045A11F /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				6CB436D72753BFCB0045A11F /* ContactsScreen.swift */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		6CB436DF2753C0250045A11F /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				6CB436D52753BFB90045A11F /* NotesScreen.swift */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
+		6CB436E02753C02D0045A11F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6CB436D92753BFD70045A11F /* SettingsScreen.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6CB436E12753C07D0045A11F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6CB436E32753C2910045A11F /* Image+Icons.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6CB436E22753C0920045A11F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6CB436E52753C8FE0045A11F /* EmptyPlaceholderView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +237,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CB436D22753BE8B0045A11F /* StronholdTabView.swift in Sources */,
+				6CB436D62753BFB90045A11F /* NotesScreen.swift in Sources */,
 				6CB436C22753BBAB0045A11F /* Persistence.swift in Sources */,
+				6CB436D02753BE540045A11F /* EnterPasswordScreen.swift in Sources */,
+				6CB436E62753C8FE0045A11F /* EmptyPlaceholderView.swift in Sources */,
+				6CB436DA2753BFD70045A11F /* SettingsScreen.swift in Sources */,
+				6CB436CC2753BE380045A11F /* TutorialScreen.swift in Sources */,
 				6CB436BB2753BBA80045A11F /* ContentView.swift in Sources */,
+				6CB436E42753C2910045A11F /* Image+Icons.swift in Sources */,
 				6CB436B92753BBA80045A11F /* StronHoldApp.swift in Sources */,
+				6CB436CE2753BE480045A11F /* CreatePasswordScreen.swift in Sources */,
 				6CB436C52753BBAB0045A11F /* StronHold.xcdatamodeld in Sources */,
+				6CB436D42753BF980045A11F /* PhotosScreen.swift in Sources */,
+				6CB436D82753BFCB0045A11F /* ContactsScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

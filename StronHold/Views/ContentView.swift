@@ -9,6 +9,38 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    
+    enum Flow {
+        case tutorial
+        case createPassword
+        case enterPassword
+        case main
+    }
+    
+    @State private var step: Flow = .tutorial
+    
+    var body: some View {
+        switch step {
+        case .tutorial:
+            TutorialScreen()
+        case .createPassword:
+            CreatePasswordScreen()
+        case .enterPassword:
+            EnterPasswordScreen()
+        case .main:
+            StronholdTabView()
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+
+
+struct CoreDataView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
@@ -80,9 +112,3 @@ private let itemFormatter: DateFormatter = {
     formatter.timeStyle = .medium
     return formatter
 }()
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
-    }
-}
